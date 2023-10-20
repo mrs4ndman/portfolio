@@ -6,7 +6,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://mrs4ndman.dev',
+	site: 'https://blog.mrs4ndman.dev',
+	base: 'portfolio',
 	integrations: [mdx(), sitemap()],
 	integrations: [preact(), tailwind()],
 });
